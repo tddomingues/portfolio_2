@@ -12,13 +12,13 @@ import { HiOutlineMail, HiOutlineDeviceMobile } from "react-icons/hi";
 const AboutMe = () => {
   return (
     <section className="bg-neutral-950 px-32 py-16 text-neutral-50 relative md:px-8">
-      <div className="flex items-center gap-2 md:flex-col md:mb-4">
+      <div className="flex items-center gap-4 lg:flex-col lg:mb-4">
         <img src={Perfil} alt="" />
         <div>
           <h3 className="text-sm mb-1 text-neutral-200 font-semibold">
             Desenvolvedor Full Stack
           </h3>
-          <p className="text-sm place-self-center">
+          <p className="text-sm place-self-center w-[90%] lg:w-[100%]">
             Prazer, meu nome é <span>Tiago</span>, tenho 25 anos, resíduo em
             Maringá, no Paraná, e sou apaixonado por tecnologia. Para manter
             contato com a Era Digital, abandonei o curso de Biomedicina para
@@ -29,7 +29,11 @@ const AboutMe = () => {
             possível para que eu possa crescer profissionalmente e colaborar em
             projetos.
           </p>
-          <Button variant="secondary" className="mt-4">
+          <Button
+            variant="secondary"
+            className="mt-4"
+            onClick={() => (window.location.href = "#projects")}
+          >
             Meu Projetos{" "}
             <span className="ml-2">
               <IoIosArrowRoundDown className="text-xl mb-[1px]" />
@@ -40,12 +44,12 @@ const AboutMe = () => {
       <div className=" flex gap-4 justify-between items-center">
         <div>
           <div className="flex items-center gap-2">
-            <HiOutlineMail className="text-2xl " />
-            <span className="text-sm">tiago3d2s3@gmail.com</span>
+            <HiOutlineMail className="text-xl " />
+            <span className="text-xs">tiago3d2s3@gmail.com</span>
           </div>
           <div className="flex items-center gap-2 mt-2">
-            <HiOutlineDeviceMobile className="text-2xl " />
-            <span className="text-sm">(44) 99128 - 9326</span>
+            <HiOutlineDeviceMobile className="text-xl " />
+            <span className="text-xs">(44) 99128 - 9326</span>
           </div>
         </div>
         <div className="text-2xl flex items-center gap-4">

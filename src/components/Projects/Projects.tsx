@@ -13,7 +13,10 @@ import NexGenImage from "../../assets/nexgenImage.png";
 
 const Projects = () => {
   return (
-    <section className="bg-neutral-900 px-32 py-16 text-neutral-50 md:px-8">
+    <section
+      className="bg-neutral-900 px-32 py-16 text-neutral-50 md:px-8"
+      id="projects"
+    >
       <h2 className="font-semibold mb-4 text-xl">Projetos</h2>
       <div className="bg-neutral-950 p-8 rounded-lg md:p-4">
         <h3 className="font-semibold mb-1 text-sm">
