@@ -11,9 +11,9 @@ const Main = () => {
   return (
     <>
       <Navbar />
-      <Home />
+      {/* <Home /> */}
       <AboutMe />
-      <Tecnology />
+      {/* <Tecnology /> */}
       <Projects />
     </>
   );
