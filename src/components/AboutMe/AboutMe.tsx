@@ -1,5 +1,10 @@
+//imagens
 import Perfil from "../../assets/perfil.png";
+
+//components
 import { Button } from "../ui/button";
+
+//icons
 import { IoIosArrowRoundDown } from "react-icons/io";
 import { ImLinkedin2, ImGithub } from "react-icons/im";
 import { HiOutlineMail, HiOutlineDeviceMobile } from "react-icons/hi";

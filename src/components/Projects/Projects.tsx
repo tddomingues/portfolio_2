@@ -1,16 +1,15 @@
-import CinebaseImage from "../../assets/cinebaseImage.png";
-import OrganizeImage from "../../assets/organizeImage.png";
-import NexGenImage from "../../assets/nexgenImage.png";
+//components
 import { Button } from "../ui/button";
 
-import SvgCss from "../../assets/css-3.svg";
-import SvgHtml from "../../assets/html-1.svg";
-import SvgJs from "../../assets/logo-javascript.svg";
+//imagens
 import SvgReact from "../../assets/react-2.svg";
 import SvgNode from "../../assets/nodejs-icon.svg";
 import SvgMongoDb from "../../assets/mongodb-icon-1.svg";
 import SvgStyledComponents from "../../assets/styledcomponents.svg";
 import TmdbImage from "../../assets/tmdb.png";
+import CinebaseImage from "../../assets/cinebaseImage.png";
+import OrganizeImage from "../../assets/organizeImage.png";
+import NexGenImage from "../../assets/nexgenImage.png";
 
 const Projects = () => {
   return (

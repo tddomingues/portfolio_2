@@ -1,9 +1,8 @@
+//components
 import { Button } from "../ui/button";
-
 import {
   AlertDialog,
   AlertDialogAction,
-  AlertDialogCancel,
   AlertDialogContent,
   AlertDialogDescription,
   AlertDialogFooter,
@@ -12,6 +11,7 @@ import {
   AlertDialogTrigger,
 } from "../../components/ui/alert-dialog";
 
+//icons
 import { HiOutlineMail, HiOutlineDeviceMobile } from "react-icons/hi";
 
 const Navbar = () => {
